@@ -1,0 +1,94 @@
+.header{
+    padding: 30px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.operation{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1{
+    border: none;
+    padding: 10px 25px;
+    width: 120px;
+    user-select: none;
+}
+.btn1.addbtn{
+    color: #fff;
+    background-color: #0076ce;
+}
+.btn1.addbtn:hover{
+    background-color: #005ea7;
+}
+.delbtn{
+    background-color: #e0e0e0;
+}
+.delbtn:hover{
+    background-color: #b3b3b3;
+}
+.cancelbtn{
+    color: white;
+    background: #b3b3b3;
+    display: none;
+}
+
+.container1{
+    border: 1px solid rgb(197, 197, 197);
+    width: 400px;
+    height: fit-content;
+    margin: 30px auto;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.container1 table{
+    margin: auto;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+.container1 table thead tr td{
+    font-size: 20px;
+    font-weight: 600;
+    padding:10px
+}
+
+.container1 table tbody tr td{
+    position: relative;
+    height: 60px;
+    width: 100%;
+}
+
+.container1 table tbody tr td a{
+    text-decoration: none;
+    background-color: #0076ce;
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+.container1 table tbody tr td a i{
+    font-size: 12px;
+}
+.container1 table tbody tr td a:hover{
+    background-color: #00447C;
+}
+
+.delete-button{
+    display: none;
+}
+
+.del-btn{
+    border:none;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    width: 40px;
+    left: 0;
+    height: 100%;
+    color: red;
+}

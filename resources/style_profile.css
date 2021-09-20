@@ -1,0 +1,119 @@
+body{
+    background-color: #f2f2f2;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+}
+.your-info{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.change-password a{
+    display: flex;
+    height: 100%;  
+    text-decoration: none;
+    color: rgb(96, 94, 92);
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+}
+.change-password a span.bold{
+    font-weight: 600;
+}
+.change-password a span.light{
+    font-weight: 400;
+}
+.change-password a:hover {
+    color: #006FC9;
+}
+
+.change-password a:hover .fa-key{
+    color: white;
+    background-color: #006FC9;
+}
+
+.fa-key{
+    background-color: #cfe5f6;
+    color: #006FC9;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.info{
+    height: fit-content;
+    width: 100%;
+    padding: 30px 150px;
+}
+.heading-tag{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(50, 49, 48);
+}
+.edit{
+    width: fit-content;
+    font-size: 14px;
+}
+.edit a{
+    text-decoration: none;
+    color: #006FC9;
+    font-weight: 400;
+}
+
+.edit a:hover{
+    text-decoration: underline;
+}
+.info-container{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 13%) 0px 1.6px 3.6px 0px, rgb(0 0 0 / 11%) 0px 0.3px 0.9px 0px;
+}
+
+.row-tr:not([type="heading"]){
+    display: flex;
+    padding: 20px;
+}
+.row-tr[type="heading"]{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+.mobile-number{
+border-bottom: 1px solid #eee;
+}
+.info-tag{
+    font-size: 14px;
+    width: 35%;
+    color: rgb(96, 94, 92);
+    font-weight: 400;
+}
+
+.info-value{
+    font-size: 14px;
+    width: 65%;
+    color: rgb(50, 49, 48);
+    font-weight: 600;
+}
+
+.toppp{
+    justify-content: space-between;
+}
+@media screen and (max-width: 899px) {
+    .info{
+        padding:20px;
+    }
+    .row-tr:not([type="heading"]){
+        flex-direction: column;
+    }
+    .tgg{
+        width: 100%;
+    }
+}
